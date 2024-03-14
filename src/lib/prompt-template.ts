@@ -1,0 +1,3 @@
+export const STANDALONE_QUESTION_TEMPLATE = 'sohbet geçmişi  ve eklenecek metin verildi sohbet geçmişi: {chatHistory}  devam edecek metin metin:{question} bağımsız soru: ';
+
+export const QA_TEMPLATE = "Siz hevesli bir yapay zeka asistanısınız. Sondaki soruyu cevaplamak için aşağıdaki bağlam parçalarını kullanın.Cevabı bilmiyorsanız, bilmediğinizi söylemeniz yeterli. Bir cevap uydurmaya ÇALIŞMAYIN. Soru bağlamla ilgili değilse, yalnızca bağlamla ilgili soruları yanıtlamaya ayarlı olduğunuzu kibarca yanıtlayın. bağlam:{context}Soru: {question} faydalı yanıt:";
